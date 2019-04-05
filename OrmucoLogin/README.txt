@@ -2,7 +2,7 @@ Ormuco Tech Test Assignment
 
 Task Description: Ormuco Invalid Login E2E Automation Test
 
-Solution Description: The provided solution is a behavior driven test which logs in the Ormuco'a UAT environment with invalid username and/or password. As per the expected system behavior, user should get an error message as "The user or password is incorrect."
+Solution Description: The provided solution is a behavior driven test which logs in the Ormuco's UAT environment with invalid username and/or password. As per the expected system behavior, user should get an error message as "The user or password is incorrect."
 
 Technology stack:
 
