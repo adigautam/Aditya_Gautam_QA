@@ -11,11 +11,13 @@ Technology stack:
 3. TestNG Framework
 
 To start testing:
+
 1. Install TestNg from http://beust.com/eclipse/
 2. Run command from Eclipse from projects home directory
 3. Once test is complete report can be found under test-output folder
 
 Reasons to select Selenium WebDriver:
+
 (i)	Selenium is open source and does not require any licensing
 (ii)	Selenium supports up to 5 major languages – Java, Python, C#, Ruby and JavaScript
 (iii)	Selenium can operate and support across multiple Operating Systems (OS) like Windows, Mac, Linux, UNIX, etc.
@@ -23,6 +25,7 @@ Reasons to select Selenium WebDriver:
 (v)	Selenium integrates with programming languages and various frameworks. For instance, it can integrate with ANT or Maven type of framework for source code compilation. Further, it can integrate with TestNG testing framework for testing applications and reporting purposes. It can integrate with Jenkins or Hudson for Continuous Integration (CI) and can even integrate with other licensed or open source tools to supports other features.
 
 Reasons for not selecting other automation tools like UFT:
+
 (i)	QTP does not support web-based applications, though the latest version of UFT does support the web-based applications
 (ii)	Cost is high due to licensing cost
 (iii)	We can’t run multiple instances, like the Grid support available in Selenium, where we can run multiple instances of the application on different browsers concurrently
