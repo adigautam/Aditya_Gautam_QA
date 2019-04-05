@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowser" duration-ms="9489" started-at="2019-04-05T13:43:50Z" finished-at="2019-04-05T13:43:59Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="4268" started-at="2019-04-05T13:43:50Z" finished-at="2019-04-05T13:43:54Z">
+      <class name="OrmucoLoginE2ETest.OrmucoLoginE2ETest">
+        <test-method status="PASS" signature="OrmucoBrowser(java.lang.String)[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@20e2cbe0]" name="OrmucoBrowser" is-config="true" duration-ms="1848" started-at="2019-04-05T13:43:50Z" finished-at="2019-04-05T13:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrmucoBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@20e2cbe0]" name="Login" duration-ms="2296" started-at="2019-04-05T13:43:52Z" finished-at="2019-04-05T13:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="sessionclose()[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@20e2cbe0]" name="sessionclose" is-config="true" duration-ms="109" started-at="2019-04-05T13:43:54Z" finished-at="2019-04-05T13:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionclose -->
+      </class> <!-- OrmucoLoginE2ETest.OrmucoLoginE2ETest -->
+    </test> <!-- Chrome Test -->
+    <test name="Firefox Test" duration-ms="5199" started-at="2019-04-05T13:43:54Z" finished-at="2019-04-05T13:43:59Z">
+      <class name="OrmucoLoginE2ETest.OrmucoLoginE2ETest">
+        <test-method status="PASS" signature="OrmucoBrowser(java.lang.String)[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@26653222]" name="OrmucoBrowser" is-config="true" duration-ms="2298" started-at="2019-04-05T13:43:54Z" finished-at="2019-04-05T13:43:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrmucoBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@26653222]" name="Login" duration-ms="2283" started-at="2019-04-05T13:43:57Z" finished-at="2019-04-05T13:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="sessionclose()[pri:0, instance:OrmucoLoginE2ETest.OrmucoLoginE2ETest@26653222]" name="sessionclose" is-config="true" duration-ms="611" started-at="2019-04-05T13:43:59Z" finished-at="2019-04-05T13:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionclose -->
+      </class> <!-- OrmucoLoginE2ETest.OrmucoLoginE2ETest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- CrossBrowser -->
+</testng-results>
